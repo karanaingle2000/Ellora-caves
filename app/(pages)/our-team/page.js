@@ -9,51 +9,51 @@ export const metadata = {
 
 const teamMembers = [
   {
-    name: "Dr. Anjali Sharma",
+    name: "Karan Ingle",
     title: "Chief Archaeologist",
-    image: "/images/team_member_1.jpg", // Replace with actual image path
+    image: "/images/karan.jpg", // Replace with actual image path
     description: [
-      "Dr. Anjali Sharma is a renowned archaeologist with over 15 years of experience in the study and preservation of ancient sites.",
+      "Karan is a renowned archaeologist with over 15 years of experience in the study and preservation of ancient sites.",
       "Her expertise in rock-cut architecture has been instrumental in the conservation efforts at the Ellora Caves.",
       "She leads guided tours and workshops, sharing her knowledge with visitors from around the world.",
     ],
-    linkedin: "https://www.linkedin.com/in/anjali-sharma",
+    linkedin: "https://www.linkedin.com/in/karan-ingle",
   },
   {
-    name: "Mr. Rajesh Kumar",
+    name: "Rishi patil",
     title: "Cultural Heritage Manager",
-    image: "/images/team_member_2.jpg", // Replace with actual image path
+    image: "/images/rishi.jpg", // Replace with actual image path
     description: [
-      "Mr. Rajesh Kumar has dedicated his career to the preservation of cultural heritage in India.",
+      "Rishi has dedicated his career to the preservation of cultural heritage in India.",
       "With a background in history and anthropology, he works closely with local communities to promote sustainable tourism.",
       "Rajesh organizes cultural events that celebrate the rich history of the Ellora Caves.",
     ],
-    linkedin: "https://www.linkedin.com/in/rajesh-kumar",
+    linkedin: "https://www.linkedin.com/in/",
   },
   {
-    name: "Ms. Priya Desai",
+    name: "Megha Khadke",
     title: "Visitor Experience Coordinator",
-    image: "/images/team_member_3.jpg", // Replace with actual image path
+    image: "/images/megha.jpeg", // Replace with actual image path
     description: [
-      "Ms. Priya Desai is passionate about enhancing visitor experiences at the Ellora Caves.",
+      "Ms. Megha is passionate about enhancing visitor experiences at the Ellora Caves.",
       "She oversees visitor services, ensuring that all guests have a memorable and informative experience.",
       "Priya also manages feedback and works on improving services based on visitor suggestions.",
     ],
-    linkedin: "https://www.linkedin.com/in/priya-desai",
+    linkedin: "https://www.linkedin.com/in/megha-khadke",
   },
   {
-    name: "Mr. Vikram Singh",
+    name: "Abhijit Ingle",
     title: "Tour Guide Supervisor",
-    image: "/images/team_member_4.jpg", // Replace with actual image path
+    image: "/images/abhijit.jpg", // Replace with actual image path
     description: [
-      "Mr. Vikram Singh is an experienced tour guide with a deep knowledge of the Ellora Caves.",
+      "Abhijit is an experienced tour guide with a deep knowledge of the Ellora Caves.",
       "He trains and supervises a team of guides, ensuring they provide accurate and engaging information to visitors.",
       "Vikram is known for his storytelling skills, making history come alive for tourists.",
     ],
-    linkedin: "https://www.linkedin.com/in/vikram-singh",
+    linkedin: "https://www.linkedin.com/in/",
   },
   {
-    name: "Ms. Neha Patel",
+    name: "Shankar Devkar",
     title: "Marketing and Outreach Manager",
     image: "/images/team_member_5.jpg", // Replace with actual image path
     description: [
@@ -61,7 +61,7 @@ const teamMembers = [
       "With a background in marketing and communications, she develops campaigns to attract visitors.",
       "Neha also collaborates with travel agencies and tour operators to create packages that highlight the caves.",
     ],
-    linkedin: "https://www.linkedin.com/in/neha-patel",
+    linkedin: "https://www.linkedin.com/in/",
   },
 ];
 

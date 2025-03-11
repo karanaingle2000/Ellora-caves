@@ -30,47 +30,47 @@ const serviceNumber = [
 const serviceData = [
   {
     id: "01",
-    imgSrc: "./images/guided_tour.png",
+    imgSrc: "./images/guid.jpg",
     title: "GUIDED TOURS",
     desc: [
       "Experience the rich history of the Ellora Caves with our expert guides.",
       "Learn about the architectural marvels and the stories behind each cave.",
       "Tours available in multiple languages for your convenience.",
     ],
-    enquireNowURL: "/guided-tours-enquiry",
+    enquireNowURL: "/contact-us",
   },
   {
     id: "02",
-    imgSrc: "./images/ticket_booking.png",
+    imgSrc: "./images/ticket.jpg",
     title: "TICKET BOOKING",
     desc: [
       "Book your tickets online for a hassle-free entry to the Ellora Caves.",
       "Avoid long queues and secure your spot in advance.",
       "Group discounts available for large parties.",
     ],
-    enquireNowURL: "/ticket-booking-enquiry",
+    enquireNowURL: "/contact-us",
   },
   {
     id: "03",
-    imgSrc: "./images/caves_exploration.png",
+    imgSrc: "./images/exploration.jpg",
     title: "CAVES EXPLORATION",
     desc: [
       "Explore the stunning rock-cut caves at your own pace.",
       "Maps and guides available for self-guided tours.",
       "Photography allowed to capture the beauty of the caves.",
     ],
-    enquireNowURL: "/caves-exploration-enquiry",
+    enquireNowURL: "/contact-us",
   },
   {
     id: "04",
-    imgSrc: "./images/cultural_events.png",
+    imgSrc: "./images/cultural.webp",
     title: "CULTURAL EVENTS",
     desc: [
       "Join us for cultural events and festivals held at the Ellora Caves.",
       "Experience traditional music, dance, and art.",
       "Special events during peak tourist seasons.",
     ],
-    enquireNowURL: "/cultural-events-enquiry",
+    enquireNowURL: "/contact-us",
   },
 ];
 

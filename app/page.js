@@ -1,37 +1,36 @@
 
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
-import Header from "@/app/components/Header"; // Adjust the import path as necessary
-import CommonBanner from "./components/CommonBanner";
+ import CommonBanner from "./components/CommonBanner";
 
 const whyData = [
   {
-    logo: "./images/cave1.jpg",
+    logo: "./images/heritage.png",
     title: "Heritage",
     desc: "Ellora Caves are a UNESCO World Heritage Site, showcasing the rich cultural and architectural heritage of ancient India.",
   },
   {
-    logo: "./images/cave1.jpg",
+    logo: "./images/artistry.avif",
     title: "Artistry",
     desc: "The intricate carvings and sculptures in the caves reflect the exceptional artistry and craftsmanship of ancient artisans.",
   },
   {
-    logo: "./images/cave1.jpg",
+    logo: "./images/spirituality.png",
     title: "Spirituality",
     desc: "The caves are home to significant Buddhist, Hindu, and Jain monuments, representing the spiritual harmony of ancient India.",
   },
   {
-    logo: "./images/cave1.jpg",
+    logo: "./images/tourism.jpg",
     title: "Tourism",
     desc: "Ellora attracts thousands of visitors each year, offering guided tours and educational experiences about its history and significance.",
   },
   {
-    logo: "./images/cave1.jpg",
+    logo: "./images/community.png",
     title: "Community Engagement",
     desc: "Local communities are actively involved in preserving the site and promoting sustainable tourism practices.",
   },
   {
-    logo: "./images/cave1.jpg",
+    logo: "./images/conservation.png",
     title: "Conservation",
     desc: "Efforts are ongoing to preserve the caves and their artworks for future generations to appreciate and enjoy.",
   },
@@ -44,7 +43,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-amber-600">
       
       {/* Banner */}
       <CommonBanner/>
@@ -59,7 +58,7 @@ export default function Home() {
           <div className="col-span-1 py-5 sm:py-10">
             <h1 className="lg:text-3xl 2xl:text-4xl text-2xl font-semibold border-l-8 border-solid border-[#ff5f15] pl-2">
               <span className="text-[#314852]">Ellora Caves: </span>
-              <span className="text-[#ff5f15]">A Marvel of Ancient Architecture</span>
+              <span className="text-[#0b0b0b]">A Marvel of Ancient Architecture</span>
             </h1>
             <p className="text-base px-5 sm:px-0 pt-5 2xl:text-xl text-justify">
               The Ellora Caves, located in Maharashtra, India, are a remarkable example of ancient rock-cut architecture. Carved between the 5th and 10th centuries, these caves showcase the artistic and architectural brilliance of the time. With over 100 caves, each adorned with intricate sculptures and carvings, Ellora stands as a testament to the rich cultural heritage of India.
@@ -110,7 +109,7 @@ export default function Home() {
       {/* Why Section */}
       <div className="w-full lg:w-11/12 2xl:w-10/12 mx-auto lg:px-0 py-5 sm:py-20">
         <h1 className="text-left lg:text-3xl 2xl:text-4xl text-[#314852] text-2xl tracking-wider font-semibold border-l-8 border-solid border-[#ff5f15] pl-2">
-          Why <span className="text-[#ff5f15]">Visit Ellora Caves</span>
+          Why <span className="text-[#0c0400]">Visit Ellora Caves</span>
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-3 my-5 sm:my-10">
           {whyData.map((item, i) => (

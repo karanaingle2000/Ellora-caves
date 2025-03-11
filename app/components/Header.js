@@ -58,13 +58,13 @@ const Header = () => {
       <div className="bg-[#314852] text-white">
         <div className="sm:w-11/12 2xl:w-10/12 mx-auto w-full sm:px-5 px-0 flex justify-between py-2 items-center">
           <div className="flex gap-x-5 text-sm items-center">
-            <Link href="tel:+911234567890" className="flex gap-x-2 items-center">
+            <Link href="tel:+919022895592" className="flex gap-x-2 items-center">
               <FaPhoneAlt />
-              <span>+91 123 456 7890</span>
+              <span>+91 9022895592</span>
             </Link>
-            <Link href="mailto:info@elloracaves.com" className="flex gap-x-2 items-center">
+            <Link href="mailto:karanaingle2000@gmail.com" className="flex gap-x-2 items-center">
               <MdEmail />
-              <span>info@elloracaves.com</span>
+              <span>karanaingle2000@gmail.com</span>
             </Link>
           </div>
           <div className="flex gap-x-5 text-sm items-center">
@@ -78,7 +78,7 @@ const Header = () => {
       </div>
       {/* Navbar */}
       <div className="sm:w-11/12 2xl:w-10/12 mx-auto w-full sm:px-5 px-0">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-4 ">
           <Link href="/" className="cursor-pointer">
             {/* <img
                src="./images/logo.jpg"

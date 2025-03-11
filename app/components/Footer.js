@@ -39,7 +39,7 @@ const TermsData = [
   {
     id: 1,
     title: "Policies and Terms",
-    linkSrc: "/policies-and-terms",
+    linkSrc: "/contact-us",
   },
 ];
 
@@ -61,7 +61,7 @@ function Footer() {
               <IoLocationSharp size={20} />
             </span>
             <div>
-            Aurangabad, Maharashtra.,{" "}
+            Chhatrapati Sambhajinagar , Maharashtra.,{" "}
               <span className="inline sm:block"> .........</span>
             </div>
           </div>
@@ -83,7 +83,7 @@ function Footer() {
             <span className="pr-2 pt-1">
               <FaLocationArrow size={20} />
             </span>
-            <Link href="mailto:info@elloracaves.com">
+            <Link href="mailto:karanaingle2000@gmail.com">
               <p className="text-white text-lg hover:text-[#ff5f15]">karan@ellora.com</p>
             </Link>
           </div>
@@ -137,13 +137,13 @@ function Footer() {
       <div className="sm:w-11/12 2xl:w-10/12 w-full mx-auto">
         <div className="flex sm:flex-row flex-col items-start sm:items-center justify-between pl-2 sm:pl-0 mx-auto">
           <span className="text-[10px] text-[#7B8A91] px-3 sm:px-0">
-            Copyright © 2024 Ellora Caves, All rights reserved.
+            Copyright © 2024 Karan Ingle, All rights reserved.
           </span>
           <span className="lg:mt-0 px-3 sm:px-0" title="Website Designing Company">
             <Link href="https://www.google.com" target="_blank" className="text-[10px] text-[#7B8A91]">
               Designed and Developed By{" "}
               <span className="text-[#BBC3C7] hover:text-[#E4E7E8]">
-                IT Corner
+                Dev. KARAN INGLE
               </span>
             </Link>
           </span>

@@ -19,7 +19,7 @@ const Page = () => {
             <h2 className="text-2xl font-bold text-[#314852] mb-4">Get in Touch</h2>
             <div className="flex items-center mb-3">
               <FaMapMarkerAlt className="text-[#ff5f15] mr-2" size={20} />
-              <span>Al Muteena, Building Shikha Mahra Al Ghurair, Office 201-06, Dubai.</span>
+              <span>Chhatrapati Sambhajinagar, Maharashtra.</span>
             </div>
             <div className="flex items-center mb-3">
               <FaPhoneAlt className="text-[#ff5f15] mr-2" size={20} />
@@ -29,8 +29,8 @@ const Page = () => {
             </div>
             <div className="flex items-center mb-3">
               <FaEnvelope className="text-[#ff5f15] mr-2" size={20} />
-              <Link href="mailto:info@elloracaves.com" className="text-[#314852] hover:text-[#ff5f15]">
-                info@elloracaves.com
+              <Link href="karanaingle2000@gmail.com" className="text-[#314852] hover:text-[#ff5f15]">
+                karan@elloracaves.com
               </Link>
             </div>
           </div>
