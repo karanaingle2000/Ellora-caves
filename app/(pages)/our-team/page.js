@@ -11,7 +11,7 @@ const teamMembers = [
   {
     name: "Karan Ingle",
     title: "Chief Archaeologist",
-    image: "/images/karan.jpg", // Replace with actual image path
+    image: "/images/karan.jpg",  
     description: [
       "Karan is a renowned archaeologist with over 15 years of experience in the study and preservation of ancient sites.",
       "Her expertise in rock-cut architecture has been instrumental in the conservation efforts at the Ellora Caves.",
@@ -22,7 +22,7 @@ const teamMembers = [
   {
     name: "Rishi patil",
     title: "Cultural Heritage Manager",
-    image: "/images/rishi.jpg", // Replace with actual image path
+    image: "/images/rishi.jpg", 
     description: [
       "Rishi has dedicated his career to the preservation of cultural heritage in India.",
       "With a background in history and anthropology, he works closely with local communities to promote sustainable tourism.",
@@ -33,7 +33,7 @@ const teamMembers = [
   {
     name: "Megha Khadke",
     title: "Visitor Experience Coordinator",
-    image: "/images/megha.jpeg", // Replace with actual image path
+    image: "/images/megha.jpeg",  
     description: [
       "Ms. Megha is passionate about enhancing visitor experiences at the Ellora Caves.",
       "She oversees visitor services, ensuring that all guests have a memorable and informative experience.",
@@ -44,7 +44,8 @@ const teamMembers = [
   {
     name: "Abhijit Ingle",
     title: "Tour Guide Supervisor",
-    image: "/images/abhijit.jpg", // Replace with actual image path
+    image: "/images/abhijit.jpg", 
+    
     description: [
       "Abhijit is an experienced tour guide with a deep knowledge of the Ellora Caves.",
       "He trains and supervises a team of guides, ensuring they provide accurate and engaging information to visitors.",
@@ -55,9 +56,9 @@ const teamMembers = [
   {
     name: "Shankar Devkar",
     title: "Marketing and Outreach Manager",
-    image: "/images/team_member_5.jpg", // Replace with actual image path
+    image: "/images/team_member_5.jpg",  
     description: [
-      "Ms. Neha Patel is responsible for promoting the Ellora Caves to a global audience.",
+      "Shankar is responsible for promoting the Ellora Caves to a global audience.",
       "With a background in marketing and communications, she develops campaigns to attract visitors.",
       "Neha also collaborates with travel agencies and tour operators to create packages that highlight the caves.",
     ],
