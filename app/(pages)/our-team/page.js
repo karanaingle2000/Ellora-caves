@@ -87,10 +87,10 @@ const Page = () => {
               <h1 className="text-[#ff5f15] font-semibold text-xl lg:text-2xl">
                 {member.name}
               </h1>
-              <p className="text-[#314852] font-medium text-lg">{member.title}</p>
+              <p className="text-[#314852] font-medium text-2xl">{member.title}</p>
               <div className="text-black text-sm mt-2">
                 {member.description.map((desc, i) => (
-                  <p key={i} className="pt-1">{desc}</p>
+                  <p key={i} className="pt-1 text-2xl">{desc}</p>
                 ))}
               </div>
               <Link href={member.linkedin} target="_blank">

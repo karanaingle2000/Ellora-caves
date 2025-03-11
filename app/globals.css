@@ -15,8 +15,27 @@
   background-repeat: no-repeat;
   transition: background-size 0.5s ease-in-out;
 }
+ 
+body {
+  font-family: 'Zilla Slab', serif;
+}
 
 .link-underline:hover {
   background-size: 100% 3px;
   background-position: 0 100%;
+}
+
+
+/* styles.css or your component's CSS file */
+.image-container {
+  transition: transform 0.3s ease, opacity 0.5s ease;
+  opacity: 0; /* Start with opacity 0 for fade-in effect */
+}
+
+.image-container.visible {
+  opacity: 1; /* Fade in */
+}
+
+.image-container:hover {
+  transform: scale(1.05); /* Scale up on hover */
 }

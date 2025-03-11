@@ -81,7 +81,7 @@ const OurServicesCompo = () => {
   };
 
   return (
-    <div>
+    <div className="bg-yellow-200 min-h-screen"> {/* Set background color to yellow */}
       <CommonBanner title="Our Services" imgSrc="/images/serviceBanner.png" />
       <div className="sm:w-11/12 2xl:w-10/12 w-full mx-auto my-10">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-5 items-center">
@@ -121,9 +121,9 @@ const OurServicesCompo = () => {
             <img
               src={item.imgSrc}
               alt={item.title}
-              className={`w-full h-auto ${
+              className={`w-full h-64 sm:h-48 ${
                 i % 2 === 0 ? `order-first sm:order-last` : ``
-              }`}
+              } rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 object-cover`}
             />
             <div>
               <h1 className="mt-2 sm:mt-0 text-left text-2xl lg:text-3xl 2xl:text-4xl tracking-wider font-bold border-l-8 border-solid border-[#ff5f15] pl-2 text-[#314852]">

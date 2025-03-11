@@ -1,7 +1,7 @@
-
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
- import CommonBanner from "./components/CommonBanner";
+import CommonBanner from "./components/CommonBanner";
+import 'typeface-zilla-slab';  
 
 const whyData = [
   {
@@ -34,7 +34,7 @@ const whyData = [
     title: "Conservation",
     desc: "Efforts are ongoing to preserve the caves and their artworks for future generations to appreciate and enjoy.",
   },
- ];
+];
 
 export const metadata = {
   title: "Home - Ellora Caves",
@@ -43,17 +43,15 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="relative w-full bg-amber-600">
-      
+    <div className="relative w-full">
       {/* Banner */}
       <CommonBanner/>
-      
 
       {/* About Section */}
       <div className="sm:w-11/12 2xl:w-10/12 w-full mx-auto my-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-5">
           <div className="col-span-1 order-last sm:order-first">
-            <img src="/images/home1.jpg" alt="Ellora Caves" className="w-full h-auto" />
+            <img src="/images/home1.jpg" alt="Ellora Caves" className="w-full h-auto  rounded-4xl" />
           </div>
           <div className="col-span-1 py-5 sm:py-10">
             <h1 className="lg:text-3xl 2xl:text-4xl text-2xl font-semibold border-l-8 border-solid border-[#ff5f15] pl-2">
